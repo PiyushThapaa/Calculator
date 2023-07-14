@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+.container{
+    height: 492px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    width: 395px;
+    background-color: #b0f4ff;
+    border-radius: 23px;
+    box-shadow: 8px 4px 40px;
+}
+#row1,#row2,#row3,#row4,#row5{
+    display: flex;
+    margin-left: -33px;
+    margin-top: 15px;
+    font-size: 38px;
+}
+.num1{
+    margin-left: 53px;
+    border: 2px solid black;
+    padding: 7px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    background-color: white;
+    padding-right: 11px;
+    box-shadow: 2px 1px 6px;
+}
+.num1:hover{
+    cursor: pointer;
+    background-color: rgb(164, 237, 164);
+}
+#backspace{
+    border-radius: 50%;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 38px;
+}
+
+#display{
+    margin-right: 5px;
+    height: 59px;
+    width: 340px;
+    margin-top: 20px;
+    font-size: 44px;
+}
+#num2,#num3{
+    padding-left: 64px;
+    padding-right: 61px;
+}
+#clear{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+#divide{
+    padding-right: 19px;
+}
+#multiply{
+    margin-left: 54px;
+}
+#plus{
+    padding-left: 10px;
+    padding-right: 8px;
+}
+#dot{
+    padding-left: 17px;
+    padding-right: 12px;
+}
